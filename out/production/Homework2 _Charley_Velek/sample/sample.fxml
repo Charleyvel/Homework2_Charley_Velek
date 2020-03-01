@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="294.0">
+         <children>
+            <Pane prefHeight="400.0" prefWidth="203.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <JFXButton fx:id="createButton" layoutX="75.0" layoutY="297.0" prefHeight="25.0" prefWidth="144.0" text="Create Database" />
+                  <JFXButton fx:id="loadButton" layoutX="100.0" layoutY="329.0" text="Load Database" />
+                  <JFXButton fx:id="deleteButton" layoutX="96.0" layoutY="361.0" text="Delete Database" />
+                  <JFXButton fx:id="filter1Button" layoutX="122.0" layoutY="14.0" text="Filter One" />
+                  <JFXButton fx:id="filter2Button" layoutX="122.0" layoutY="48.0" text="Filter Two" />
+                  <JFXButton fx:id="filter3Button" layoutX="118.0" layoutY="86.0" text="Filter Three" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+      <VBox prefHeight="400.0" prefWidth="306.0">
+         <children>
+            <JFXListView fx:id="studentTable" prefHeight="400.0" prefWidth="341.0" />
+         </children>
+      </VBox>
+   </children>
+</HBox>
